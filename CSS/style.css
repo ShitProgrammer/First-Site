@@ -1,0 +1,193 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.nav-link{
+	float:right;
+	margin-left: 40px;
+	color: white;
+}
+
+.nav-link:hover{
+	border:solid white 1px;
+	border-radius: 10px;
+	color:lightgrey;
+	background-color: grey;
+	float:right;
+	margin-left: 40px;
+	color: white;
+}
+.navbar-brand{
+	float:right;
+	margin-left: 40px;
+}
+
+.intro-top{
+	font-family: 'Oswald', sans-serif;
+
+	text-align: center;
+	color: white;
+	background-image: url("../Image/top_background.jpg");
+	width: max-width;
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+	background-size: cover;
+	height:500px;
+	opacity: 0.7;
+	image-rendering: pixelated;
+	image-rendering: -webkit-optimize-contrast;
+}
+.intro-top h1{
+	text-decoration: underline;
+}
+.intro-top button{
+	color:white;
+	margin-top:300px;
+	margin-right: 400px
+}
+.spaceing{
+	height: 30px;
+}
+
+.workers{
+	display: flex;
+	align-items: center;
+}
+
+.center{
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+}
+
+section{
+
+	background-color:#1e1e1e11
+}
+
+.worker-name{
+	text-align: center;
+		font-family: 'Oswald', sans-serif;
+
+}
+
+.words{
+	text-align: center;
+	color: grey;
+}
+.worker-img{
+
+}
+.intro-top h1{
+	padding:min-width;
+	
+}
+.worker{
+	border-right:solid 2px black;
+	margin-right: 2px;
+}
+.contacts{
+	text-align: center;
+	margin-top: 58px;
+}
+
+footer{
+	background-color: black;
+}
+body{
+	background-color: white;
+	justify-content: center;
+
+}
+.nav{
+	opacity: 0.7;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.hamburg{
+	visibility: hidden;
+
+}
+.line-1{
+	width:20px;
+	height: 2px;
+	margin:2px;
+	background-color: white;
+}
+ .line-2{
+	width:20px;
+	height: 1px;
+	margin: 2px;
+	background-color: white;
+}
+ .line-3{
+	width:20px;
+	margin: 2px;
+	height: 2px;
+	background-color: white;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+@media screen and (max-width: 600px) {
+
+.navbar{
+	display: flex;
+}
+
+
+ }
+
+ @media screen and (max-width: 468px){
+ 	.workers{
+ 		display:inline;
+ 	}
+
+ 	.intro-top{
+ 		margin:auto;
+ 		font-size: medium;
+ 	}
+
+ }
+
+.visibility-is-hidden{
+visibility: hidden;
+}
+ .visibility-is-visible{
+ 	visibility: visible;
+ }

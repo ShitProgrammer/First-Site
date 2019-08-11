@@ -10,13 +10,7 @@
 }
 
 .nav-link:hover{
-	border:solid white 1px;
-	border-radius: 10px;
-	color:lightgrey;
-	background-color: grey;
-	float:right;
-	margin-left: 40px;
-	color: white;
+color:grey;
 }
 .navbar-brand{
 	float:right;
@@ -80,11 +74,14 @@ section{
 }
 .intro-top h1{
 	padding:min-width;
+	padding:30px;
+	padding-bottom: 20px;
 
 }
 .worker{
 	border-right:solid 2px black;
 	margin-right: 2px;
+	padding:20px;
 }
 .contacts{
 	text-align: center;
@@ -105,8 +102,8 @@ body{
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
-  top: 0;
-  width: 100%;
+  top: 1px;
+  width: max-width;
 }
 .hamburg{
 	visibility: hidden;
@@ -133,11 +130,11 @@ body{
 
 /* Page content */
 .content {
-  padding: 16px;
+  padding: 20px;
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 
@@ -168,6 +165,7 @@ body{
 
 .navbar{
 	display: flex;
+	visibility: hidden;
 }
 
 
@@ -180,8 +178,14 @@ body{
 
  	.intro-top{
  		margin:auto;
+ 		padding: auto;
  		font-size: medium;
  	}
+
+ 	.sticky{
+ 		position: absolute;
+ 	}
+
 
  }
 footer{

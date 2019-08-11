@@ -1,6 +1,6 @@
 *{
-	padding:0;
-	margin:0;
+	padding:10px;
+	margin:3px;
 }
 
 .nav-link{
@@ -80,7 +80,7 @@ section{
 }
 .intro-top h1{
 	padding:min-width;
-	
+
 }
 .worker{
 	border-right:solid 2px black;
@@ -184,10 +184,17 @@ body{
  	}
 
  }
-
+footer{
+	color:white;
+}
 .visibility-is-hidden{
 visibility: hidden;
 }
  .visibility-is-visible{
  	visibility: visible;
+ }
+
+ body{
+ 	padding:0;
+ 	margin:0;
  }
